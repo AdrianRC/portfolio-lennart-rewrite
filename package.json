@@ -12,14 +12,20 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@csstools/postcss-global-data": "^2.1.1",
 		"@sveltejs/adapter-auto": "^3.2.1",
 		"@sveltejs/kit": "^2.5.10",
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
 		"@types/eslint": "^8.56.10",
+		"browserslist": "^4.23.0",
+		"cssnano": "^7.0.2",
 		"eslint": "^9.4.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.39.0",
 		"globals": "^15.4.0",
+		"postcss": "^8.4.38",
+		"postcss-load-config": "^6.0.1",
+		"postcss-preset-env": "^9.5.14",
 		"prettier": "^3.3.1",
 		"prettier-plugin-svelte": "^3.2.4",
 		"svelte": "5.0.0-next.152",
@@ -29,5 +35,9 @@
 		"typescript-eslint": "8.0.0-alpha.29",
 		"vite": "^5.2.13"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@acab/reset.css": "^0.10.0"
+	},
+	"browserslist": "> 0.5%, last 2 Chrome major versions, last 2 Firefox major versions, last 2 Safari major versions, last 2 iOS major versions, not dead"
 }
