@@ -6,14 +6,9 @@
 @import './utils.pcss';
 @import '../fonts/Inter/inter.css';
 
-@custom-selector :--heading h1, h2, h3, h4, h5, h6;
-
 :root {
   --font-headings: 'Inter', sans-serif;
 	--font-body: 'Inter', sans-serif;
-	--color-primary: lch(20% 108 300);
-	--color-accent: lch(88% 104 86);
-	--color-neutral: lch(25% 5 300);
   font-family: var(--font-body);
 }
 
@@ -38,26 +33,46 @@ html {
 
 body {
 	font-family: var(--font-body);
-	color: var(--color-neutral);
-}
-
-
-:is(input[type="search"], input[type="text"]) {
-  outline: 1px solid transparent;
-  outline-offset: -1px;
-  transition: outline-color 300ms ease-out;
-
-  &:focus-visible {
-	  outline-color: var(--focus);
-  }
-}
-
-:--heading {
-	font-family: var(--font-headings);
+	color: var(--black);
 }
 
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
+}
+
+.headline {
+  width: 100%;
+  font-size: var(--2xl);
+  line-height: 1.5;
+  color: var(--dark);
+  font-family: var(--tenon);
+
+  @media (--tablet) {
+    font-size: var(--3xl);
+  }
+
+  @media (--large) {
+    font-size: var(--4xl);
+    width: 80%;
+    line-height: 1.375;
+  }
+}
+
+.page-description {
+  width: 100%;
+  margin-top: 0.5rem;
+  font-size: var(--base);
+  line-height: 1.5;
+  color: var(--dark);
+
+  @media (--tablet) {
+    margin-top: 1rem;
+    font-size: var(--2xl);
+  }
+
+  @media (--desktop) {
+    margin-top: 1.5rem;
+  }
 }

@@ -1,0 +1,12 @@
+{
+	"layout": {
+		"work": "Projekte",
+		"about": "Über mich",
+		"contact": "Kontakt"
+	},
+	"home": {
+		"intro": "Hi. Ich bin Lennart Basler. Als freiberuflicher Interaction und Brand Designer konzipiere und gestalte ich Apps, Marken und Websites.",
+		"cta_title": "Gefällt dir, was du siehst? Erfahre, wie ich arbeite.",
+		"cta_link_label": "Über mich"
+	}
+}

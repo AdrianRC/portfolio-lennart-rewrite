@@ -1,0 +1,12 @@
+{
+	"layout": {
+		"work": "Work",
+		"about": "About",
+		"contact": "Contact"
+	},
+	"home": {
+		"intro": "Hi. I'm Lennart Basler, a freelance interaction and brand designer helping companies to envision, prototype and design products, brands and experiences.",
+		"cta_title": "Like what you see? Discover how I work.",
+		"cta_link_label": "About"
+	}
+}
